@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: springai
+  data:
+    redis:
+      url: redis://localhost:6379
+      client-type: jedis
+  ai:
+    model:
+      embedding: openai
+    vectorstore:
+      redis:
+        index-name: ice_ai_vector-index
+        prefix: "ice:"
+        initialize-schema: true
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      base-url: https://dashscope.aliyuncs.com/compatible-mode/v1
+      chat:
+        model: deepseek-v4-pro
+      embedding:
+        model: text-embedding-v4
+        dimensions: 2048
+#    ollama:
+#      base-url: http://localhost:11434
+#      chat:
+#        model: qwen3:4b
+
+logging:
+  level:
+    org.springframework.ai: debug
