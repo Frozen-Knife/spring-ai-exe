@@ -1,4 +1,4 @@
-package com.ice.springai.util;
+package com.ice.springai.chat.util;
 
 import org.springframework.ai.document.Document;
 import org.springframework.ai.document.DocumentReader;

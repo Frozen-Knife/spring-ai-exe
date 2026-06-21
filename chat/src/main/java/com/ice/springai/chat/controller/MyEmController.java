@@ -1,4 +1,4 @@
-package com.ice.springai.controller;
+package com.ice.springai.chat.controller;
 
 import org.springframework.ai.document.Document;
 import org.springframework.ai.openai.OpenAiEmbeddingModel;

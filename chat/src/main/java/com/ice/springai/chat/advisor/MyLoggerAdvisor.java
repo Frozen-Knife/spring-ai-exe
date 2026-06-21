@@ -1,4 +1,4 @@
-package com.ice.springai.advisor;
+package com.ice.springai.chat.advisor;
 
 import org.jspecify.annotations.NonNull;
 import org.springframework.ai.chat.client.ChatClientRequest;

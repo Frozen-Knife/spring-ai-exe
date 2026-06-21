@@ -1,8 +1,8 @@
-package com.ice.springai.controller;
+package com.ice.springai.chat.controller;
 
-import com.ice.springai.record.BookReview;
-import com.ice.springai.record.TopicBooks;
-import com.ice.springai.tool.DateTimeTools;
+import com.ice.springai.chat.record.BookReview;
+import com.ice.springai.chat.record.TopicBooks;
+import com.ice.springai.chat.tool.DateTimeTools;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.memory.ChatMemory;
 import org.springframework.ai.chat.prompt.Prompt;

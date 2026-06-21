@@ -1,6 +1,6 @@
-package com.ice.springai.config;
+package com.ice.springai.chat.config;
 
-import com.ice.springai.advisor.MyLoggerAdvisor;
+import com.ice.springai.chat.advisor.MyLoggerAdvisor;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor;
 import org.springframework.ai.chat.memory.ChatMemory;

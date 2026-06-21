@@ -1,4 +1,4 @@
-package com.ice.springai;
+package com.ice.springai.chat.chat;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

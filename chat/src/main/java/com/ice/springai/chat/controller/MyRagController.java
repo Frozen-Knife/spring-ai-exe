@@ -1,6 +1,6 @@
-package com.ice.springai.controller;
+package com.ice.springai.chat.controller;
 
-import com.ice.springai.util.DocumentParseUtil;
+import com.ice.springai.chat.util.DocumentParseUtil;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.vectorstore.QuestionAnswerAdvisor;
 import org.springframework.ai.document.Document;

@@ -1,4 +1,4 @@
-package com.ice.springai.record;
+package com.ice.springai.chat.record;
 
 import java.util.List;
 

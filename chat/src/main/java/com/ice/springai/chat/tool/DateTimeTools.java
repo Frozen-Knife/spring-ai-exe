@@ -1,4 +1,4 @@
-package com.ice.springai.tool;
+package com.ice.springai.chat.tool;
 
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.context.i18n.LocaleContextHolder;

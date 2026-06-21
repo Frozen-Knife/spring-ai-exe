@@ -1,4 +1,4 @@
-package com.ice.springai.config;
+package com.ice.springai.chat.config;
 
 import org.springframework.ai.transformer.splitter.TokenTextSplitter;
 import org.springframework.context.annotation.Bean;
