@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: mcp
+  ai:
+    mcp:
+      server:
+        name: mcp-weather
+        version: 1.0.0
+        type: sync
+        protocol: STREAMABLE
+        instructions: "提供按城市名的模拟天气预报查询（演示数据）"
+        annotation-scanner:
+          enabled: true
+
+
+
+server:
+  port: 8888
